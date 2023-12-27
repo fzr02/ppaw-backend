@@ -1,0 +1,19 @@
+GET POST https://profound-frangollo-349764.netlify.app/.netlify/functions/api/user
+
+
+###
+POST https://profound-frangollo-349764.netlify.app/.netlify/functions/api/user
+Content-Type: application/json
+
+{
+    "nama" : "Faiz",
+    "id":"122232222",
+    "server" :"ASIA",
+    "email":"faiz@gmail.com",
+    "wa" :"085774663777",
+    "list":"500000",
+    "jenispembayaran":"BCA"
+}
+
+###
+GET https://profound-frangollo-349764.netlify.app/.netlify/functions/api/user

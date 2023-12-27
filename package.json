@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "create-app-react": "^1.0.6",
+    "express": "^4.18.2",
+    "mongo": "^0.1.0",
+    "moongose": "^1.0.0",
+    "netlify": "^13.1.11",
+    "nodemon": "^3.0.2",
+    "serverless-http": "^3.2.0"
+  },
+  "name": "topup1",
+  "version": "1.0.0",
+  "main": "function/api.js",
+  "scripts": {
+    "build" : "netlify deploy --prod",
+    "start": "nodemon function/api.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
